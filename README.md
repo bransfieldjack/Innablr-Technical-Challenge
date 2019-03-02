@@ -87,7 +87,9 @@ virtualenv env
 source env/bin/activate
 ```
 Once the virtual env has been successfully configured, you will see the following (env) indicator preceding your command prompt:
+
 ![virtual_env_running.PNG](https://s3-ap-southeast-2.amazonaws.com/innablr/virtual_env_running.PNG)
+
 The next order of business will be to create the 'requirements.txt' file, which will contain a list of dependencies on which the application depends.
 ```
 django==1.7
