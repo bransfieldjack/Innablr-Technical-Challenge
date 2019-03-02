@@ -1,71 +1,7 @@
-![innablr](https://s3-ap-southeast-2.amazonaws.com/innablr/innablr.PNG)
-
-# Innablr-Technical-Challenge
-
-Scenario:
-
-A large micro services project has set course to develop a considerable number of REST API's in the next 12 months. They are aiming to use a standard set of technologies and patterns to bring consistency to their delivery.
-
-As part of this, you are required to build a boilerplate git repository that includes the basic scaffolding required for each team to kickoff their projects.
-
-Your repository should define a comprehensive pipeline that has at least the following stages: test, build, publish.
-
-As part of this, a simple REST API should also be present in the repository that has a root / endpoint that returns a basic "Hello World" message, and a /status endpoint that returns the following response:
-
-```
-{
-  "myapplication": [
-    {
-      "version": "1.0",
-      "description": "pre-interview technical test",
-      "lastcommitsha": "abc57858585"
-    }
-  ]
-}
-```
-
-## Toolchain:
-
-Code repository: GitHub
-Pipelines: TravisCI
-API's programming language: NodeJS or Golang ideally, but feel free to use something you are more accustomed to.
-Image repository: Docker Hub
-
-Additional:
-
-Terraform v0.11.11
-
-## Testing
-
-Some basic unit tests have been added to the api/test.py applet in the application. These test basic get put and post requests.
-Test code:
-```
-from django.test import TestCase
-from rest_framework.test import APIRequestFactory
 
 
-# As per the standard documentation: https://www.django-rest-framework.org/api-guide/testing/
 
-
-class TestDjango(TestCase):
-
-
-    def test_requests(self):
-
-        factory = APIRequestFactory()
-
-        self.post_request = factory.post('/api/', {'version': 'test'})
-        self.get_request = factory.get('/api/', {'id': '1'})
-        self.put_request = factory.put('/api/', {
-            'id': '3',
-            'version': 'test2',
-            'decsription': 'put_request test',
-        })
-```
-
-## Deployment
-
-### Django Rest Micro Service.
+## Django Rest
 
 Create a new instance in EC2 to setup the boiler plate code that we will package for use with our containers/instances. Automated deployment can be achieved with the following terraform provider and resource, but for initial configuration I opted to manually create the environment in AWS.
 
@@ -235,3 +171,31 @@ urlpatterns = [
 You should now be in a position to test access to the API root.
 
 ![api_root](https://s3-ap-southeast-2.amazonaws.com/innablr/api_root.PNG)
+
+## Testing
+
+Some basic unit tests have been added to the api/test.py applet in the application. These test basic get put and post requests.
+Test code:
+```
+from django.test import TestCase
+from rest_framework.test import APIRequestFactory
+
+
+# As per the standard documentation: https://www.django-rest-framework.org/api-guide/testing/
+
+
+class TestDjango(TestCase):
+
+
+    def test_requests(self):
+
+        factory = APIRequestFactory()
+
+        self.post_request = factory.post('/api/', {'version': 'test'})
+        self.get_request = factory.get('/api/', {'id': '1'})
+        self.put_request = factory.put('/api/', {
+            'id': '3',
+            'version': 'test2',
+            'decsription': 'put_request test',
+        })
+```
