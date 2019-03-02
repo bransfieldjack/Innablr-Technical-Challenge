@@ -38,3 +38,57 @@ Terraform v0.11.11
 ## Testing
 
 ## Deployment
+
+Django Rest Micro Service
+
+Create a new instance in EC2 to setup the boiler plate code that we will package for use with our containers/instances.
+Automated deployment can be achieved with the following terraform provider and resource, but for initial configuration I opted to manually create the environment in AWS.
+
+Terraform command:
+
+```
+provider "aws" {
+	access_key = "${var.access_key}"
+	secret_key = "${var.secret_key}"
+	region = "${var.region}"
+}
+
+resource "aws_instance" "dev" {
+	ami = "ami-07a3bd4944eb120a0"
+	instance_type = "t2.micro"
+
+	provisioner "remote-exec" {
+		inline = [
+			"sudo apt-get update",
+      "sudo apt-get install python3-pip",
+      "pip3 install virtualenv",
+      "virtualenv env",
+      "virtualenv env source env/bin/activate",
+      ""
+		]
+	}
+
+}
+```
+
+Connect to your instance using the security keys of your choice. In this instance I chose to use the Ubuntu Server 18.04 LTS AMI for familiarity reasons.
+Login to the instance using "ubuntu@ec2-x-xxx-xx-xxx.ap-southeast-2.compute.amazonaws.com".
+
+Install any updates on the machine with:
+```
+sudo apt-get update
+```
+Use the following commands to install pip (required to install a virtual environment, used for isolation of python applications and dependencies on the machine):
+```
+sudo apt-get install python3-pip
+```
+Now we can install and activate our virtual environment:
+```
+pip3 install virtualenv
+```
+```
+virtualenv env
+```
+```
+source env/bin/activate
+```
