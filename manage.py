@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 import os
-import env
 import sys
 
 if __name__ == "__main__":
