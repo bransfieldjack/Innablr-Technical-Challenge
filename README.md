@@ -2,7 +2,8 @@
 
 # Overview
 
-Testing: [Travis](https://travis-ci.org/bransfieldjack/Innablr-Technical-Challenge)
+Testing: [Travis](https://travis-ci.org/bransfieldjack/Innablr-Technical-Challenge) [![Build Status](https://travis-ci.org/bransfieldjack/Innablr-Technical-Challenge.svg?branch=master)](https://travis-ci.org/bransfieldjack/Innablr-Technical-Challenge)
+
 
 Staging: [Heroku Staging](https://innablr-staging.herokuapp.com/)
 
