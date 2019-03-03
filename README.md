@@ -4,15 +4,15 @@
 
 ### Index
 
-[Overview](https://github.com/bransfieldjack/Innablr-Technical-Challenge/tree/overview)
+[Overview](https://github.com/bransfieldjack/Innablr-Technical-Challenge/tree/overview) (Current branch) An outline of the repo structure and information regarding the challenge.
 ***
-[Django REST API](https://github.com/bransfieldjack/Innablr-Technical-Challenge/tree/django_rest_setup)
+[Django REST API](https://github.com/bransfieldjack/Innablr-Technical-Challenge/tree/django_rest_setup) Details regarding the REST API application, written in python with the Django REST framework.
 ***
-[Infrastructure and deployment](https://github.com/bransfieldjack/Innablr-Technical-Challenge/tree/infrastructre_and_deployment)
+[Infrastructure and deployment](https://github.com/bransfieldjack/Innablr-Technical-Challenge/tree/infrastructre_and_deployment) walkthrough of the deployment and information for auto scaling and infrastructure as code deployment.
 ***
-[Code base and config files](https://github.com/bransfieldjack/Innablr-Technical-Challenge/tree/master)
+[Code base and config files](https://github.com/bransfieldjack/Innablr-Technical-Challenge/tree/master) All project files, re-useable.
 ***
-[CI/CD](https://github.com/bransfieldjack/Innablr-Technical-Challenge/tree/master)
+[CI/CD](https://github.com/bransfieldjack/Innablr-Technical-Challenge/tree/master) Continuous integration and testing. 
 
 # Innablr-Technical-Challenge
 
