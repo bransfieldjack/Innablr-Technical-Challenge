@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 """
 
 import os
+import env
 import dj_database_url
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -28,6 +29,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'ec2-13-238-155-152.ap-southeast-2.compute.amazonaws.com',
+    'innablr-technical-challenge-jackalack117.c9users.io',
     'https://innablr-staging.herokuapp.com/',
     'innablr-staging.herokuapp.com',
 ]
