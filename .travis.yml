@@ -8,4 +8,5 @@ env:
   - DJANGO=2.0
 services:
   - postgresql
-
+script:
+  - pytest
