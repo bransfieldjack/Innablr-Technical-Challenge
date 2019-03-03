@@ -9,4 +9,4 @@ env:
 services:
   - postgresql
 script:
-  - pytest
+  - sudo apt-get update
