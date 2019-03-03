@@ -10,3 +10,4 @@ services:
   - postgresql
 script:
   - sudo apt-get update
+  - sha = git rev-parse --verify HEAD
