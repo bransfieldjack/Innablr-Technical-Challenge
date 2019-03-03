@@ -1,6 +1,8 @@
 language: python
 python:
     - "3.4"
+before_install:
+  - chmod +x mvnw
 install: "pip install -r requirements.txt"
 env:
   - DJANGO=2.0
