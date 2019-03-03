@@ -1,4 +1,4 @@
-# Continuous integration and testing
+# Continuous integration, testing and deployment. 
 
 [![Build Status](https://travis-ci.org/bransfieldjack/Innablr-Technical-Challenge.svg?branch=master)](https://travis-ci.org/bransfieldjack/Innablr-Technical-Challenge)
 
