@@ -2,6 +2,12 @@
 
 # Overview
 
+Testing: [Travis](https://travis-ci.org/bransfieldjack/Innablr-Technical-Challenge)
+
+Staging: [Heroku Staging](https://innablr-staging.herokuapp.com/)
+
+Production: [Heroku Production](https://innablr-production.herokuapp.com/)
+
 ### Index
 
 [Overview](https://github.com/bransfieldjack/Innablr-Technical-Challenge/tree/overview) (Current branch) An outline of the repo structure and information regarding the challenge.
@@ -12,7 +18,7 @@
 ***
 [Code base and config files](https://github.com/bransfieldjack/Innablr-Technical-Challenge/tree/master) All project files, re-useable.
 ***
-[CI/CD](https://github.com/bransfieldjack/Innablr-Technical-Challenge/tree/continuos_integration_delivery) Continuous integration and testing. 
+[CI/CD](https://github.com/bransfieldjack/Innablr-Technical-Challenge/tree/continuos_integration_delivery) Continuous integration and testing.
 
 # Innablr-Technical-Challenge
 
@@ -40,11 +46,14 @@ As part of this, a simple REST API should also be present in the repository that
 
 ## Toolchain:
 
-Code repository: GitHub
-Pipelines: TravisCI
-API's programming language: NodeJS or Golang ideally, but feel free to use something you are more accustomed to.
-Image repository: Docker Hub
-
-Additional:
-
-Terraform v0.11.11
+AWS EC2
+AWS ECS
+AWS Cloud 9
+Putty
+Heroku
+Terraform
+Docker
+Docker Hub
+GitHub
+Travis CI
+Django REST framework
