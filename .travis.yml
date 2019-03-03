@@ -2,5 +2,9 @@ language: python
 python:
     - "3.4"
 install: "pip install -r requirements.txt"
+env:
+  - DJANGO=2.0
+services:
+  - postgresql
 script:
-- SECRET_KEY="Whatever" ./manage.py test
+  - python manage.py migrate
