@@ -5,10 +5,14 @@
 ### Index
 
 [Overview](https://github.com/bransfieldjack/Innablr-Technical-Challenge/tree/overview)
+***
 [Django REST API](https://github.com/bransfieldjack/Innablr-Technical-Challenge/tree/django_rest_setup)
+***
 [Infrastructure and deployment](https://github.com/bransfieldjack/Innablr-Technical-Challenge/tree/infrastructre_and_deployment)
+***
 [Code base and config files](https://github.com/bransfieldjack/Innablr-Technical-Challenge/tree/master)
-[CI/CD](https://github.com/bransfieldjack/Innablr-Technical-Challenge/tree/master) 
+***
+[CI/CD](https://github.com/bransfieldjack/Innablr-Technical-Challenge/tree/master)
 
 # Innablr-Technical-Challenge
 
