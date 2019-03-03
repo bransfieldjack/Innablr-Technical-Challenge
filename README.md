@@ -39,4 +39,6 @@ docker push jackalack117/innablr_image
 
 The docker image for this project is available at:
 
-[](https://cloud.docker.com/repository/docker/jackalack117/innablr_image)
+[Innablr Docker Image](https://cloud.docker.com/repository/docker/jackalack117/innablr_image)
+
+***
