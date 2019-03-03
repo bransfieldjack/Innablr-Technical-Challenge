@@ -30,6 +30,7 @@ ALLOWED_HOSTS = [
     'ec2-13-238-155-152.ap-southeast-2.compute.amazonaws.com',
     'innablr-technical-challenge-jackalack117.c9users.io',
     'https://innablr-staging.herokuapp.com/',
+    'innablr-production.herokuapp.com',
     'innablr-staging.herokuapp.com',
 ]
 
