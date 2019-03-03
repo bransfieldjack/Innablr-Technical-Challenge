@@ -12,7 +12,7 @@
 ***
 [Code base and config files](https://github.com/bransfieldjack/Innablr-Technical-Challenge/tree/master) All project files, re-useable.
 ***
-[CI/CD](https://github.com/bransfieldjack/Innablr-Technical-Challenge/tree/master) Continuous integration and testing. 
+[CI/CD](https://github.com/bransfieldjack/Innablr-Technical-Challenge/tree/continuos_integration_delivery) Continuous integration and testing. 
 
 # Innablr-Technical-Challenge
 
