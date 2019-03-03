@@ -47,14 +47,14 @@ As part of this, a simple REST API should also be present in the repository that
 
 ## Toolchain:
 
-AWS EC2
-AWS ECS
-AWS Cloud 9
-Putty
-Heroku
-Terraform
-Docker
-Docker Hub
-GitHub
-Travis CI
-Django REST framework
+ - AWS EC2
+ - AWS ECS
+ - AWS Cloud 9
+ - Putty
+ - Heroku
+ - Terraform
+ - Docker
+ - Docker Hub
+ - GitHub
+ - Travis CI
+ - Django REST framework
