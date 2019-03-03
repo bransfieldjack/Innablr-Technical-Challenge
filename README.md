@@ -40,4 +40,6 @@ script:
 
 I'm having an issue at the moment where the version of python that I am using is causing issues with my Django test cases. I believe it to be an issue with encoding, see [TypeError: 'str' does not support the buffer interface](https://stackoverflow.com/questions/5471158/typeerror-str-does-not-support-the-buffer-interface)
 
-If the testing completes with success on the Travis server, a heroku staging environment will automatically run a build job via the procfile and requirements.txt contained in the repo. If the build completes with success I we have the option to manually promote to production. (Heroku will only successfully automate a build from your Master branch)
+If the testing completes with success on the Travis server, a heroku staging environment will automatically run a build job via the procfile and requirements.txt contained in the repo. If the build completes with success we have the option to manually promote to production. (Heroku will only successfully automate a build from your Master branch)
+
+![heroku pipeline](https://s3-ap-southeast-2.amazonaws.com/innablr/heroku+pipeline.PNG)
