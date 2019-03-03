@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'ec2-13-238-155-152.ap-southeast-2.compute.amazonaws.com',
+    'https://innablr-staging.herokuapp.com/',
 ]
 
 
